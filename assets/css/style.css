@@ -1,0 +1,145 @@
+body{
+  padding: 0;
+  margin: 0;
+  
+  /* Autor Frieden */
+  background-color: #f4f4f4 !important;
+}
+
+/****========
+    Header ==========
+    ****/
+
+.logo img{
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.input-research{
+  position: relative;
+  bottom: 70px;
+  left: 110px;
+}
+
+.input-research input{
+  border-radius: 50px;
+}
+
+#searchbar {
+	min-width: 500px;
+}
+
+.menu{
+  position: relative;
+  bottom: 45px;
+  height: 80px;
+}
+
+.links-menu{
+  margin: 1px;
+}
+
+.links{
+ position: relative;
+ font-family: "helvetica";
+ margin-left: 500px;
+ bottom: 55px; 
+ font-size: 11px; 
+ font-weight: bolder;
+}
+
+.btn-button{
+  color: #fff;
+  background-color: #333399;
+}
+.btn-button:hover{
+  color: #fff;
+  background-color: #ff0066;
+
+}
+
+
+/* News Categories */
+.catlinks {
+ position: relative;
+ font-family: "helvetica";
+ font-size: 11px; 
+ font-weight: bolder;
+}
+
+
+.catlinksactive {
+  text-decoration: underline pink !important;
+}
+
+.catname {
+	color: #333399;
+}
+
+.biglinks {
+	font-size: 20px;
+	margin-left: 40px;
+	font-weight: bolder;
+}
+
+#biglinksection {
+	margin-top: 20px;
+	background-color: #fff;
+	padding: 40px;
+	
+}
+.dropdownitem {
+	color: black !important;
+	font-size: small !important;
+	font-family: "helvetica";
+}
+.image-news {
+	padding: 5px;
+}
+
+
+.text-news {
+	font-size: 6pt;
+}
+
+.navbar-toggler-icon
+{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  
+}
+
+.footercopyright {
+	background-color: lightgrey;
+}
+
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+/* On screens that are 500px or less */
+@media screen and (max-width: 500px) {
+
+	#searchbar {
+	width: 200px;
+	}
+
+	#zonemeteo{
+		display:none;
+	}
+	
+	#menu {
+	width: 300px;
+	}
+
+	
+}
+
